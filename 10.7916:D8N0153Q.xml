@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- First exmaple of converting a MODS record to RDF/XML. 
+    The example is taken from here: http://dx.doi.org/10.7916/D8N0153Q and covers a journal article with a related dataset.
+-->
 <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:dcterms="http://purl.org/dc/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -7,15 +11,33 @@
     xmlns:rel="http://id.loc.gov/vocabulary/relators" xmlns:bf="http://bibframe.org/vocab"
     xmlns:ac="http://id.library.columbia.edu/ontologies/ac-light#"
     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-    xmlns:rioxxterms="http://www.rioxx.net/schema/v2.0/rioxxterms">
+    xmlns:rioxxterms="http://www.rioxx.net/schema/v2.0/rioxxterms"
+    xmlns:ali="http://www.niso.org/schemas/ali/1.0/">
     <rdf:Description rdf:about="http://dx.doi.org/10.7916/D8N0153Q">
         <rdf:type rdf:resource="http://pcdm.org/models#Works/Work"/>
-        
+
+        <!-- Title:
+        <titleInfo>
+            <title>Efficacy of a Group-Based Multimedia HIV Prevention Intervention for Drug-Involved Women under Community Supervision: Project WORTH</title>
+        </titleInfo>
+        -->
         <dc:title xml:lang="en">Efficacy of a Group-Based Multimedia HIV Prevention Intervention for
             Drug-Involved Women under Community Supervision: Project WORTH</dc:title>
 
 
-        <!-- Author info following -->
+        <!-- Author info:
+        <name type="personal" ID="ne5">
+            <namePart type="family">El-Bassel</namePart>
+            <namePart type="given">Nabila</namePart>
+            <role>
+                <roleTerm type="text">author</roleTerm>
+            </role>
+            <affiliation>Columbia University. Social Work</affiliation>
+        </name>
+        etc.
+        
+        The assumption here is that we won't have author URIs when running the first migration, so relying on blank nodes here. 
+        -->
         <rel:aut rdf:parseType="Resource">
             <foaf:givenName>Nabila</foaf:givenName>
             <foaf:lastName>El-Bassel</foaf:lastName>
@@ -137,13 +159,31 @@
         </subject> -->
         <dc:subject rdf:resource="http://id.worldcat.org/fast/1123192"/>
 
-
+        <!-- RIOXX predicates added here for reference, no such info exists in the example 
+        There are example of RIOXX implementation in RDF here:
+        
+        Other predicates we might possibly want to consider:
+        <ali:license_ref rdf:parseType="Resource">
+            <ali:start_date rdf:datatype="xsd:date">2014-11-01</ali:start_date>
+            <ali:uri rdf:resource="http://www.psychoceramics.org/license_v1.html"/>
+        </ali:license_ref>
+        <ali:license_ref rdf:parseType="Resource">
+            <ali:start_date rdf:datatype="xsd:date">2015-11-01</ali:start_date>
+            <ali:uri rdf:resource="http://www.psychoceramics.org/open_license.html"/>
+        </ali:license_ref>
+        
+        -->
         <rioxxterms:project rdf:nodeID="XXXX">
             <rioxxterms:funder_id rdf:resource=""/>
             <rioxxterms:funder_name/>
         </rioxxterms:project>
 
-        <!-- The following represent the leration between the article and journal (in this case PLOS) 
+        <ali:free_to_read rdf:parseType="Resource">
+            <!-- free to read from issued date -->
+            <ali:start_date rdf:datatype="xsd:date">XXXX</ali:start_date>
+        </ali:free_to_read>
+
+        <!-- The following represent the relation between the article and journal (in this case PLOS) 
         I decided to only include the URI and let RDF do the magic of pulling in the Journal info ;)
         
         Here the alternative contruct to add the other info:
@@ -168,14 +208,13 @@
          <date>November 5, 2014</date>
         </part>
         -->
-        
+
         <!-- <note>The data supporting this article can be found in Academic Commons at http://dx.doi.org/10.7916/D8N0153Q.</note> -->
-        <bf:dataSource rdf:resource="http://dx.doi.org/10.7916/D8N0153Q" />
+        <bf:dataSource rdf:resource="http://dx.doi.org/10.7916/D8N0153Q"/>
 
         <!-- Following PCDM/Works relationships -->
         <pcdm:hasMember>
             <!-- Shall we provide the link to the fileSet here? -->
-            
         </pcdm:hasMember>
 
     </rdf:Description>
