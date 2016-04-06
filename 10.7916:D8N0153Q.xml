@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:pcdm="http://pcdm.org/models#"
+    xmlns:rel="http://id.loc.gov/vocabulary/relators" xmlns:bf="http://bibframe.org/vocab"
+    xmlns:ac="http://id.library.columbia.edu/ontologies/ac-light#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:rioxxterms="http://www.rioxx.net/schema/v2.0/rioxxterms">
+    <rdf:Description rdf:about="http://dx.doi.org/10.7916/D8N0153Q">
+        <rdf:type rdf:resource="http://pcdm.org/models#Works/Work"/>
+        
+        <dc:title xml:lang="en">Efficacy of a Group-Based Multimedia HIV Prevention Intervention for
+            Drug-Involved Women under Community Supervision: Project WORTH</dc:title>
+
+
+        <!-- Author info following -->
+        <rel:aut rdf:parseType="Resource">
+            <foaf:givenName>Nabila</foaf:givenName>
+            <foaf:lastName>El-Bassel</foaf:lastName>
+            <ac:columbiaUni>ne5</ac:columbiaUni>
+            <ac:affiliation>Columbia University. Social Work</ac:affiliation>
+        </rel:aut>
+        <rel:aut rdf:parseType="Resource">
+            <foaf:givenName>Louisa</foaf:givenName>
+            <foaf:lastName>Gilbert</foaf:lastName>
+            <ac:columbiaUni>lg123</ac:columbiaUni>
+            <ac:affiliation>Columbia University. Social Work</ac:affiliation>
+        </rel:aut>
+        <rel:aut rdf:parseType="Resource">
+            <foaf:givenName>Dawn</foaf:givenName>
+            <foaf:lastName>Goddard-Eckrich</foaf:lastName>
+            <ac:columbiaUni>dg2121</ac:columbiaUni>
+            <ac:affiliation>Columbia University. Social Work</ac:affiliation>
+        </rel:aut>
+        <rel:aut rdf:parseType="Resource">
+            <foaf:givenName>Mingway P.</foaf:givenName>
+            <foaf:lastName>Chang</foaf:lastName>
+            <ac:columbiaUni>mpc2004</ac:columbiaUni>
+            <ac:affiliation>Columbia University. Social Work</ac:affiliation>
+        </rel:aut>
+        <rel:aut rdf:parseType="Resource">
+            <foaf:givenName>Elwin</foaf:givenName>
+            <foaf:lastName>Wu</foaf:lastName>
+            <ac:columbiaUni>ew157</ac:columbiaUni>
+            <ac:affiliation>Columbia University. Social Work</ac:affiliation>
+        </rel:aut>
+        <rel:aut rdf:parseType="Resource">
+            <foaf:givenName>Timothy L.</foaf:givenName>
+            <foaf:lastName>Hunt</foaf:lastName>
+            <ac:columbiaUni>th2258</ac:columbiaUni>
+            <ac:affiliation>Columbia University. Social Work</ac:affiliation>
+        </rel:aut>
+        <rel:aut rdf:parseType="Resource">
+            <foaf:givenName>Matthew W.</foaf:givenName>
+            <foaf:lastName>Epperson</foaf:lastName>
+        </rel:aut>
+        <rel:aut rdf:parseType="Resource">
+            <foaf:givenName>Stacey A.</foaf:givenName>
+            <foaf:lastName>Shaw</foaf:lastName>
+            <ac:columbiaUni>sas2268</ac:columbiaUni>
+            <ac:affiliation>Columbia University. Social Work</ac:affiliation>
+        </rel:aut>
+        <rel:aut rdf:parseType="Resource">
+            <foaf:givenName>Jessica C.</foaf:givenName>
+            <foaf:lastName>Rowe</foaf:lastName>
+            <ac:columbiaUni>jr2502</ac:columbiaUni>
+            <ac:affiliation>Columbia University. Columbia Center for New Media Teaching and
+                Learning</ac:affiliation>
+        </rel:aut>
+        <rel:aut rdf:parseType="Resource">
+            <foaf:givenName>Maria</foaf:givenName>
+            <foaf:lastName>Almonte</foaf:lastName>
+        </rel:aut>
+        <rel:aut rdf:parseType="Resource">
+            <foaf:givenName>Susan S.</foaf:givenName>
+            <foaf:lastName>Witte</foaf:lastName>
+            <ac:columbiaUni>ssw12</ac:columbiaUni>
+            <ac:affiliation>Columbia University. Social Work</ac:affiliation>
+        </rel:aut>
+        <rel:org rdf:parseType="Resource">
+            <foaf:name>Columbia University. Social Work</foaf:name>
+        </rel:org>
+        <dc:date>2014</dc:date>
+
+        <!-- <identifier type="CDRS doi">http://dx.doi.org/10.7916/D8VH5MKX</identifier> -->
+        <dc:identifier rdf:parseType="Resource">
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/doi"/>
+            <bf:identifierValue>10.7916/D8N0153Q</bf:identifierValue>
+            <bf:identifierAssigner>Academic Commons</bf:identifierAssigner>
+        </dc:identifier>
+
+        <!-- <identifier type="doi">10.1371/journal.pone.0111528</identifier> -->
+        <dc:identifier rdf:parseType="Resource">
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/doi"/>
+            <bf:identifierValue>10.1371/journal.pone.0111528</bf:identifierValue>
+            <bf:identifierAssigner>Publisher</bf:identifierAssigner>
+        </dc:identifier>
+
+        <!-- <genre>Articles</genre> -->
+        <dc:type rdf:resource="http://vocab.getty.edu/aat/300048715"/>
+
+
+        <!-- <abstract>Objective: We tested the efficacy of... </abstract> -->
+        <dc:description xml:lang="en">Objective: We tested the efficacy of a group-based traditional
+            and multimedia HIV/STI prevention intervention (Project WORTH: Women on the Road to
+            Health) among drug-involved women under community supervision. Design, Setting,
+            Participants, and Intervention: We randomized 306 women recruited from community
+            supervision settings to receive either: (1) a four-session traditional group-based
+            HIV/STI prevention intervention (traditional WORTH); (2) a four-session multimedia
+            group-based HIV/STI prevention intervention that covered the same content as traditional
+            WORTH but was delivered in a computerized format; or (3) a four-session group-based
+            Wellness Promotion intervention that served as an attention control condition. The study
+            examined whether the traditional or multimedia WORTH intervention was more efficacious
+            in reducing risks when compared to Wellness Promotion; and whether multimedia WORTH was
+            more efficacious in reducing risks when compared to traditional WORTH. Main Outcomes and
+            Measures: Primary outcomes were assessed over the 12-month post-intervention period and
+            included the number of unprotected sex acts, the proportion of protected sex acts, and
+            consistent condom use. At baseline, 77% of participants reported unprotected vaginal or
+            anal sex (n = 237) and 63% (n = 194) had multiple sex partners. Results: Women assigned
+            to traditional or multimedia WORTH were significantly more likely than women assigned to
+            the control condition to report an increase in the proportion of protected sex acts
+            (&#946; = 0.10; 95% CI = 0.02&#8211;0.18) and a decrease in the number of unprotected
+            sex acts (IRR = 0.72; 95% CI = 0.57&#8211;0.90). Conclusion and Relevance: The promising
+            effects of traditional and multimedia WORTH on increasing condom use and high
+            participation rates suggest that WORTH may be scaled up to redress the concentrated
+            epidemics of HIV/STIs among drug-involved women in the criminal justice system. </dc:description>
+
+        <!-- <language>
+            <languageTerm type="text">English</languageTerm>
+         </language> -->
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+
+        <!-- <subject>
+            <topic>Social work</topic>
+        </subject> -->
+        <dc:subject rdf:resource="http://id.worldcat.org/fast/1123192"/>
+
+
+        <rioxxterms:project rdf:nodeID="XXXX">
+            <rioxxterms:funder_id rdf:resource=""/>
+            <rioxxterms:funder_name/>
+        </rioxxterms:project>
+
+        <!-- The following represent the leration between the article and journal (in this case PLOS) 
+        I decided to only include the URI and let RDF do the magic of pulling in the Journal info ;)
+        
+        Here the alternative contruct to add the other info:
+        <bf:partOf>
+        <rdf:Description rdf:resource="http://xissn.worldcat.org/webservices/xid/issn/1932-6203" >
+            <dc:title>PLOS ONE</dc:title>
+            etc...
+        </rdf:Description>
+        -->
+        <bf:partOf rdf:resource="http://xissn.worldcat.org/webservices/xid/issn/1932-6203"/>
+
+        <!-- Volume, issue, and pages still missing here, not sure how to model them in RDF:
+        <part>
+         <detail type="volume">
+            <number>9</number>
+         </detail>
+         <detail type="issue">
+            <number>11</number>
+         </detail>
+         <extent unit="page">
+            </extent>
+         <date>November 5, 2014</date>
+        </part>
+        -->
+        
+        <!-- <note>The data supporting this article can be found in Academic Commons at http://dx.doi.org/10.7916/D8N0153Q.</note> -->
+        <bf:dataSource rdf:resource="http://dx.doi.org/10.7916/D8N0153Q" />
+
+        <!-- Following PCDM/Works relationships -->
+        <pcdm:hasMember>
+            <!-- Shall we provide the link to the fileSet here? -->
+            
+        </pcdm:hasMember>
+
+    </rdf:Description>
+</rdf:RDF>

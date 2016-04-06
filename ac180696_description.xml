@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+   <titleInfo>
+      <title>Efficacy of a Group-Based Multimedia HIV Prevention Intervention for Drug-Involved Women under Community Supervision: Project WORTH</title>
+   </titleInfo>
+   <name type="personal" ID="ne5">
+      <namePart type="family">El-Bassel</namePart>
+      <namePart type="given">Nabila</namePart>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>Columbia University. Social Work</affiliation>
+   </name>
+   <name type="personal" ID="lg123">
+      <namePart type="family">Gilbert</namePart>
+      <namePart type="given">Louisa</namePart>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>Columbia University. Social Work</affiliation>
+   </name>
+   <name type="personal" ID="dg2121">
+      <namePart type="family">Goddard-Eckrich</namePart>
+      <namePart type="given">Dawn</namePart>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>Columbia University. Social Work</affiliation>
+   </name>
+   <name type="personal" ID="mpc2004">
+      <namePart type="family">Chang</namePart>
+      <namePart type="given">Mingway P.</namePart>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>Columbia University. Social Work</affiliation>
+   </name>
+   <name type="personal" ID="ew157">
+      <namePart type="family">Wu</namePart>
+      <namePart type="given">Elwin</namePart>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>Columbia University. Social Work</affiliation>
+   </name>
+   <name type="personal" ID="th2258">
+      <namePart type="family">Hunt</namePart>
+      <namePart type="given">Timothy L.</namePart>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>Columbia University. Social Work</affiliation>
+   </name>
+   <name type="personal">
+      <namePart type="family">Epperson</namePart>
+      <namePart type="given">Matthew W.</namePart>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal" ID="sas2268">
+      <namePart type="family">Shaw</namePart>
+      <namePart type="given">Stacey A.</namePart>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>Columbia University. Social Work</affiliation>
+   </name>
+   <name type="personal" ID="jr2502">
+      <namePart type="family">Rowe</namePart>
+      <namePart type="given">Jessica C.</namePart>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>Columbia University. Columbia Center for New Media Teaching and Learning</affiliation>
+   </name>
+   <name type="personal">
+      <namePart type="family">Almonte</namePart>
+      <namePart type="given">Maria</namePart>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+   </name>
+   <name type="personal" ID="ssw12">
+      <namePart type="family">Witte</namePart>
+      <namePart type="given">Susan S.</namePart>
+      <role>
+         <roleTerm type="text">author</roleTerm>
+      </role>
+      <affiliation>Columbia University. Social Work</affiliation>
+   </name>
+   <name type="corporate">
+      <namePart>Columbia University. Social Work</namePart>
+      <role>
+         <roleTerm type="text">originator</roleTerm>
+      </role>
+   </name>
+   <extension xmlns:rioxxterms="http://docs.rioxx.net/schema/v1.0/rioxxterms/" xmlns="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://docs.rioxx.net/schema/v1.0/rioxxterms/ http://docs.rioxx.net/schema/v1.0/rioxxterms.xsd">
+      <rioxxterms:funder>National Institute on Drug Abuse</rioxxterms:funder>
+      <rioxxterms:projectid>R01DA025878</rioxxterms:projectid>
+   </extension>
+   <typeOfResource>text</typeOfResource>
+   <genre>Articles</genre>
+   <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+   </originInfo>
+   <language>
+      <languageTerm type="text">English</languageTerm>
+   </language>
+   <abstract>Objective: We tested the efficacy of a group-based traditional and multimedia HIV/STI prevention intervention (Project WORTH: Women on the Road to Health) among drug-involved women under community supervision. Design, Setting, Participants, and Intervention: We randomized 306 women recruited from community supervision settings to receive either: (1) a four-session traditional group-based HIV/STI prevention intervention (traditional WORTH); (2) a four-session multimedia group-based HIV/STI prevention intervention that covered the same content as traditional WORTH but was delivered in a computerized format; or (3) a four-session group-based Wellness Promotion intervention that served as an attention control condition. The study examined whether the traditional or multimedia WORTH intervention was more efficacious in reducing risks when compared to Wellness Promotion; and whether multimedia WORTH was more efficacious in reducing risks when compared to traditional WORTH. Main Outcomes and Measures: Primary outcomes were assessed over the 12-month post-intervention period and included the number of unprotected sex acts, the proportion of protected sex acts, and consistent condom use. At baseline, 77% of participants reported unprotected vaginal or anal sex (n = 237) and 63% (n = 194) had multiple sex partners. Results: Women assigned to traditional or multimedia WORTH were significantly more likely than women assigned to the control condition to report an increase in the proportion of protected sex acts (&#946; = 0.10; 95% CI = 0.02&#8211;0.18) and a decrease in the number of unprotected sex acts (IRR = 0.72; 95% CI = 0.57&#8211;0.90). Conclusion and Relevance: The promising effects of traditional and multimedia WORTH on increasing condom use and high participation rates suggest that WORTH may be scaled up to redress the concentrated epidemics of HIV/STIs among drug-involved women in the criminal justice system.</abstract>
+   <note>The data supporting this article can be found in Academic Commons at http://dx.doi.org/10.7916/D8N0153Q.</note>
+   <subject>
+      <topic>Social work</topic>
+   </subject>
+   <subject authority="fast" authorityURI="http://id.worldcat.org/fast/void/0.1" valueURI="">
+      <topic/>
+   </subject>
+   <relatedItem type="host">
+      <titleInfo>
+         <title>PLOS ONE</title>
+      </titleInfo>
+      <part>
+         <detail type="volume">
+            <number>9</number>
+         </detail>
+         <detail type="issue">
+            <number>11</number>
+         </detail>
+         <extent unit="page">
+            </extent>
+         <date>November 5, 2014</date>
+      </part>
+      <identifier type="doi">10.1371/journal.pone.0111528</identifier>
+      <identifier type="issn">1932-6203</identifier>
+   </relatedItem>
+   <identifier type="CDRS doi">http://dx.doi.org/10.7916/D8VH5MKX</identifier>
+   <location>
+      <physicalLocation authority="marcorg">NNC</physicalLocation>
+   </location>
+   <recordInfo>
+      <recordContentSource authority="marcorg">NNC</recordContentSource>
+      <recordCreationDate encoding="w3cdtf">2014-12-05 12:26:00 -0500</recordCreationDate>
+      <recordChangeDate encoding="w3cdtf">2016-01-22 11:40:53 -0500</recordChangeDate>
+      <recordIdentifier>18778</recordIdentifier>
+      <languageOfCataloging>
+         <languageTerm authority="iso639-2b">eng</languageTerm>
+      </languageOfCataloging>
+   </recordInfo>
+</mods>
