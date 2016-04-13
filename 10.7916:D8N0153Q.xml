@@ -13,7 +13,7 @@
     xmlns:foaf="http://xmlns.com/foaf/0.1/"
     xmlns:rioxxterms="http://www.rioxx.net/schema/v2.0/rioxxterms"
     xmlns:ali="http://www.niso.org/schemas/ali/1.0/">
-    <rdf:Description rdf:about="http://dx.doi.org/10.7916/D8N0153Q">
+    <rdf:Description rdf:about="http://dx.doi.org/10.7916/D8VH5MKX">
         <rdf:type rdf:resource="http://pcdm.org/models#Works/Work"/>
 
         <!-- Title:
