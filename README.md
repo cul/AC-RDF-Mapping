@@ -15,7 +15,7 @@ Two versions will be available:
 
 ###Examples:
 
-http://dx.doi.org/10.7916/D8N0153Q (Journal Article with related dataset)
+http://dx.doi.org/10.7916/D8VH5MKX (Journal Article with related dataset)
 - MODS file: ac180696_description.xml
 - RDF/XML file: 10.7916:D8N0153Q.xml
 
