@@ -12,7 +12,8 @@
     xmlns:ac="http://id.library.columbia.edu/ontologies/ac-light#"
     xmlns:foaf="http://xmlns.com/foaf/0.1/"
     xmlns:rioxxterms="http://www.rioxx.net/schema/v2.0/rioxxterms"
-    xmlns:ali="http://www.niso.org/schemas/ali/1.0/">
+    xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
+    xmlns:schema="http://schema.org/">
     <rdf:Description rdf:about="http://dx.doi.org/10.7916/D8VH5MKX">
         <rdf:type rdf:resource="http://pcdm.org/models#Works/Work"/>
 
@@ -42,37 +43,37 @@
             <foaf:givenName>Nabila</foaf:givenName>
             <foaf:lastName>El-Bassel</foaf:lastName>
             <ac:columbiaUni>ne5</ac:columbiaUni>
-            <ac:affiliation>Columbia University. Social Work</ac:affiliation>
+            <schema:affiliation>Columbia University. Social Work</schema:affiliation>
         </rel:aut>
         <rel:aut rdf:parseType="Resource">
             <foaf:givenName>Louisa</foaf:givenName>
             <foaf:lastName>Gilbert</foaf:lastName>
             <ac:columbiaUni>lg123</ac:columbiaUni>
-            <ac:affiliation>Columbia University. Social Work</ac:affiliation>
+            <schema:affiliation>Columbia University. Social Work</schema:affiliation>
         </rel:aut>
         <rel:aut rdf:parseType="Resource">
             <foaf:givenName>Dawn</foaf:givenName>
             <foaf:lastName>Goddard-Eckrich</foaf:lastName>
             <ac:columbiaUni>dg2121</ac:columbiaUni>
-            <ac:affiliation>Columbia University. Social Work</ac:affiliation>
+            <schema:affiliation>Columbia University. Social Work</schema:affiliation>
         </rel:aut>
         <rel:aut rdf:parseType="Resource">
             <foaf:givenName>Mingway P.</foaf:givenName>
             <foaf:lastName>Chang</foaf:lastName>
             <ac:columbiaUni>mpc2004</ac:columbiaUni>
-            <ac:affiliation>Columbia University. Social Work</ac:affiliation>
+            <schema:affiliation>Columbia University. Social Work</schema:affiliation>
         </rel:aut>
         <rel:aut rdf:parseType="Resource">
             <foaf:givenName>Elwin</foaf:givenName>
             <foaf:lastName>Wu</foaf:lastName>
             <ac:columbiaUni>ew157</ac:columbiaUni>
-            <ac:affiliation>Columbia University. Social Work</ac:affiliation>
+            <schema:affiliation>Columbia University. Social Work</schema:affiliation>
         </rel:aut>
         <rel:aut rdf:parseType="Resource">
             <foaf:givenName>Timothy L.</foaf:givenName>
             <foaf:lastName>Hunt</foaf:lastName>
             <ac:columbiaUni>th2258</ac:columbiaUni>
-            <ac:affiliation>Columbia University. Social Work</ac:affiliation>
+            <schema:affiliation>Columbia University. Social Work</schema:affiliation>
         </rel:aut>
         <rel:aut rdf:parseType="Resource">
             <foaf:givenName>Matthew W.</foaf:givenName>
@@ -82,14 +83,14 @@
             <foaf:givenName>Stacey A.</foaf:givenName>
             <foaf:lastName>Shaw</foaf:lastName>
             <ac:columbiaUni>sas2268</ac:columbiaUni>
-            <ac:affiliation>Columbia University. Social Work</ac:affiliation>
+            <schema:affiliation>Columbia University. Social Work</schema:affiliation>
         </rel:aut>
         <rel:aut rdf:parseType="Resource">
             <foaf:givenName>Jessica C.</foaf:givenName>
             <foaf:lastName>Rowe</foaf:lastName>
             <ac:columbiaUni>jr2502</ac:columbiaUni>
-            <ac:affiliation>Columbia University. Columbia Center for New Media Teaching and
-                Learning</ac:affiliation>
+            <schema:affiliation>Columbia University. Columbia Center for New Media Teaching and
+                Learning</schema:affiliation>
         </rel:aut>
         <rel:aut rdf:parseType="Resource">
             <foaf:givenName>Maria</foaf:givenName>
@@ -99,7 +100,7 @@
             <foaf:givenName>Susan S.</foaf:givenName>
             <foaf:lastName>Witte</foaf:lastName>
             <ac:columbiaUni>ssw12</ac:columbiaUni>
-            <ac:affiliation>Columbia University. Social Work</ac:affiliation>
+            <schema:affiliation>Columbia University. Social Work</schema:affiliation>
         </rel:aut>
         <rel:org rdf:parseType="Resource">
             <foaf:name>Columbia University. Social Work</foaf:name>
