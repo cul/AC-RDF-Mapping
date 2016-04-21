@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- First exmaple of converting a MODS record to RDF/XML. 
+    The example is taken from here: http://dx.doi.org/10.7916/D8N0153Q and covers a journal article with a related dataset.
+-->
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:pcdm="http://pcdm.org/models#"
+    xmlns:rel="http://id.loc.gov/vocabulary/relators" xmlns:bf="http://bibframe.org/vocab"
+    xmlns:ac="http://id.library.columbia.edu/ontologies/ac-light#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:rioxxterms="http://www.rioxx.net/schema/v2.0/rioxxterms"
+    xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
+    xmlns:schema="http://schema.org/">
+    <rdf:Description rdf:about="http://dx.doi.org/10.7916/D8VH5MKX">
+        <rdf:type rdf:resource="http://pcdm.org/models#Works/Work"/>
+
+        <!-- Title:
+        <titleInfo>
+            <title>Efficacy of a Group-Based Multimedia HIV Prevention Intervention for Drug-Involved Women under Community Supervision: Project WORTH</title>
+        </titleInfo>
+        -->
+        <dc:title xml:lang="en">Efficacy of a Group-Based Multimedia HIV Prevention Intervention for
+            Drug-Involved Women under Community Supervision: Project WORTH</dc:title>
+
+
+        <!-- Author info:
+        <name type="personal" ID="ne5">
+            <namePart type="family">El-Bassel</namePart>
+            <namePart type="given">Nabila</namePart>
+            <role>
+                <roleTerm type="text">author</roleTerm>
+            </role>
+            <affiliation>Columbia University. Social Work</affiliation>
+        </name>
+        etc.
+        
+        The assumption here is is that we would have the info available via id.library / URI service 
+        Only listing one author for now, with a made up URI based on UNI
+        -->
+        <rel:aut rdf:resource="http://id.library.columbia.edu/people/ne5" />
+        
+        <!-- Corparate author = Columbia University. Social Work using ISNI -->
+        <rel:org rdf:resource="http://isni.org/isni/0000000119551337"/>
+        
+        
+        <dc:date>2014</dc:date>
+
+        <!-- <identifier type="CDRS doi">http://dx.doi.org/10.7916/D8VH5MKX</identifier> -->
+        <dc:identifier rdf:parseType="Resource">
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/doi"/>
+            <bf:identifierValue>10.7916/D8N0153Q</bf:identifierValue>
+            <bf:identifierAssigner>Academic Commons</bf:identifierAssigner>
+        </dc:identifier>
+
+        <!-- <identifier type="doi">10.1371/journal.pone.0111528</identifier> -->
+        <dc:identifier rdf:parseType="Resource">
+            <bf:identifierScheme rdf:resource="http://id.loc.gov/vocabulary/identifiers/doi"/>
+            <bf:identifierValue>10.1371/journal.pone.0111528</bf:identifierValue>
+            <bf:identifierAssigner>Publisher</bf:identifierAssigner>
+        </dc:identifier>
+
+        <!-- <genre>Articles</genre> -->
+        <dc:type rdf:resource="http://vocab.getty.edu/aat/300048715"/>
+
+
+        <!-- <abstract>Objective: We tested the efficacy of... </abstract> -->
+        <dc:description xml:lang="en">Objective: We tested the efficacy of a group-based traditional
+            and multimedia HIV/STI prevention intervention (Project WORTH: Women on the Road to
+            Health) among drug-involved women under community supervision. Design, Setting,
+            Participants, and Intervention: We randomized 306 women recruited from community
+            supervision settings to receive either: (1) a four-session traditional group-based
+            HIV/STI prevention intervention (traditional WORTH); (2) a four-session multimedia
+            group-based HIV/STI prevention intervention that covered the same content as traditional
+            WORTH but was delivered in a computerized format; or (3) a four-session group-based
+            Wellness Promotion intervention that served as an attention control condition. The study
+            examined whether the traditional or multimedia WORTH intervention was more efficacious
+            in reducing risks when compared to Wellness Promotion; and whether multimedia WORTH was
+            more efficacious in reducing risks when compared to traditional WORTH. Main Outcomes and
+            Measures: Primary outcomes were assessed over the 12-month post-intervention period and
+            included the number of unprotected sex acts, the proportion of protected sex acts, and
+            consistent condom use. At baseline, 77% of participants reported unprotected vaginal or
+            anal sex (n = 237) and 63% (n = 194) had multiple sex partners. Results: Women assigned
+            to traditional or multimedia WORTH were significantly more likely than women assigned to
+            the control condition to report an increase in the proportion of protected sex acts
+            (&#946; = 0.10; 95% CI = 0.02&#8211;0.18) and a decrease in the number of unprotected
+            sex acts (IRR = 0.72; 95% CI = 0.57&#8211;0.90). Conclusion and Relevance: The promising
+            effects of traditional and multimedia WORTH on increasing condom use and high
+            participation rates suggest that WORTH may be scaled up to redress the concentrated
+            epidemics of HIV/STIs among drug-involved women in the criminal justice system. </dc:description>
+
+        <!-- <language>
+            <languageTerm type="text">English</languageTerm>
+         </language> -->
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+
+        <!-- <subject>
+            <topic>Social work</topic>
+        </subject> -->
+        <dc:subject rdf:resource="http://id.worldcat.org/fast/1123192"/>
+
+        <!-- RIOXX predicates added here for reference, no such info exists in the example 
+        There are example of RIOXX implementation in RDF here:
+        
+        Other predicates we might possibly want to consider:
+        <ali:license_ref rdf:parseType="Resource">
+            <ali:start_date rdf:datatype="xsd:date">2014-11-01</ali:start_date>
+            <ali:uri rdf:resource="http://www.psychoceramics.org/license_v1.html"/>
+        </ali:license_ref>
+        <ali:license_ref rdf:parseType="Resource">
+            <ali:start_date rdf:datatype="xsd:date">2015-11-01</ali:start_date>
+            <ali:uri rdf:resource="http://www.psychoceramics.org/open_license.html"/>
+        </ali:license_ref>
+        
+        No RIOXX info for this work is available  
+        
+        -->
+        <rioxxterms:project rdf:resource="https:id.library.columbia.edu/funded-projects/123456"/>
+
+        <ali:free_to_read rdf:parseType="Resource">
+            <!-- free to read from issued date -->
+            <ali:start_date rdf:datatype="xsd:date">XXXX</ali:start_date>
+        </ali:free_to_read>
+
+        <!-- The following represent the relation between the article and journal (in this case PLOS) 
+        I decided to only include the URI and let RDF do the magic of pulling in the Journal info ;)
+        
+        Here the alternative contruct to add the other info:
+        <bf:partOf>
+        <rdf:Description rdf:resource="http://xissn.worldcat.org/webservices/xid/issn/1932-6203" >
+            <dc:title>PLOS ONE</dc:title>
+            etc...
+        </rdf:Description>
+        -->
+        <bf:partOf rdf:resource="http://xissn.worldcat.org/webservices/xid/issn/1932-6203"/>
+        
+
+        <!-- Volume, issue, and pages still missing here, not sure how to model them in RDF:
+        <part>
+         <detail type="volume">
+            <number>9</number>
+         </detail>
+         <detail type="issue">
+            <number>11</number>
+         </detail>
+         <extent unit="page">
+            </extent>
+         <date>November 5, 2014</date>
+        </part>
+        -->
+
+        <!-- <note>The data supporting this article can be found in Academic Commons at http://dx.doi.org/10.7916/D8N0153Q.</note> -->
+        <bf:dataSource rdf:resource="http://dx.doi.org/10.7916/D8N0153Q"/>
+        <pcdm:hasRelatedObject rdf:resource="http://dx.doi.org/10.7916/D8N0153Q"/>
+
+        
+        <pcdm:hasMember>
+            <!-- Information about associated FileSets goes here -->
+        </pcdm:hasMember>
+
+    </rdf:Description>
+</rdf:RDF>

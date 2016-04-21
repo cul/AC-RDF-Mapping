@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Example funded project info using RIOXX, again to be stored in id.library / URI service-->
+<rdf:RDF xmlns:rioxxterms="http://www.rioxx.net/schema/v2.0/rioxxterms"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <rdf:Description rdf:about="https:id.library.columbia.edu/funded-projects/123456">
+        <!-- If possible use URIs from http://search.crossref.org/fundref -->
+        <rioxxterms:funder_id rdf:resource="http://example.com/funderXXX"/>
+        <rioxxterms:funder_name>XXXXX</rioxxterms:funder_name>
+    </rdf:Description>
+</rdf:RDF>
