@@ -94,7 +94,7 @@
         <!-- <language>
             <languageTerm type="text">English</languageTerm>
          </language> -->
-        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
 
         <!-- <subject>
             <topic>Social work</topic>
