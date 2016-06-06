@@ -1,0 +1,370 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://id.columbia.edu/EXAMPLE/570000X> a skos:Concept ;
+	skos:prefLabel "School of Social Work" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/PRO_SCH> ;
+	skos:closeMatch "http://id.loc.gov/authorities/names/n80057282" , "http://viaf.org/viaf/126666150" ;
+	skos:inScheme "College/School" ;
+	skos:editorialNote "570000X-SSW Social Work" .
+
+<http://id.columbia.edu/EXAMPLE/57AD00X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Administration" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570000X> ;
+	skos:inScheme "Sub-College/School" ;
+	skos:editorialNote "57AD00X-SSW Administration" .
+
+<http://id.columbia.edu/EXAMPLE/570200X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Institutional Research & Evaluation" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/57AD00X> ;
+	skos:inScheme "Department" ;
+	skos:editorialNote "570200X-SSW Institutional Rsch & Eval" .
+
+<http://id.columbia.edu/EXAMPLE/570210X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Institutional Research & Evaluation" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570200X> ;
+	skos:inScheme "Division/Center/Institute" ;
+	skos:editorialNote "570210X-SSW Institutional Rsch & Eval" .
+
+<http://id.columbia.edu/EXAMPLE/5702102> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Institutional Research & Evaluation" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570210X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5702102-SSW Institutional Rsch & Eval" .
+
+<http://id.columbia.edu/EXAMPLE/570300X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Student & Enrollment Services" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/57AD00X> ;
+	skos:inScheme "Department" ;
+	skos:editorialNote "570300X-SSW Student & Enrollment Srvcs" .
+
+<http://id.columbia.edu/EXAMPLE/570310X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Student & Enrollment Services" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570300X> ;
+	skos:inScheme "Division/Center/Institute" ;
+	skos:editorialNote "570310X-SSW Student & Enrollment Srvcs" .
+
+<http://id.columbia.edu/EXAMPLE/5703102> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Student Services Office" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570310X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5703102-SSW Student Services Office" .
+
+<http://id.columbia.edu/EXAMPLE/5703103> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Admissions Office" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570310X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5703103-SSW Admissions Office" .
+
+<http://id.columbia.edu/EXAMPLE/5703104> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Financial Aid Office" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570310X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5703104-SSW Financial Aid Office" .
+
+<http://id.columbia.edu/EXAMPLE/5703105> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Career & Leadership Development Office" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570310X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5703105-SSW Career &Leadership Dev Off" .
+
+<http://id.columbia.edu/EXAMPLE/570400X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Doctoral Office" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/57AD00X> ;
+	skos:inScheme "Department" ;
+	skos:editorialNote "570400X-SSW Doctoral Office" .
+
+<http://id.columbia.edu/EXAMPLE/570410X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Doctoral Office" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570400X> ;
+	skos:inScheme "Division/Center/Institute" ;
+	skos:editorialNote "570410X-SSW Doctoral Office" .
+
+<http://id.columbia.edu/EXAMPLE/5704102> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Doctoral Office" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570410X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5704102-SSW Doctoral Office" .
+
+<http://id.columbia.edu/EXAMPLE/570500X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Development & Alumni Relations" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/57AD00X> ;
+	skos:inScheme "Department" ;
+	skos:editorialNote "570500X-SSW Development & Alumni Relat" .
+
+<http://id.columbia.edu/EXAMPLE/570510X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Development & Alumni Relations" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570500X> ;
+	skos:inScheme "Division/Center/Institute" ;
+	skos:editorialNote "570510X-SSW Development & Alumni Relat" .
+
+<http://id.columbia.edu/EXAMPLE/5705102> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Development Office" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570510X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5705102-SSW Development Office" .
+
+<http://id.columbia.edu/EXAMPLE/5705103> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Alumni Office" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570510X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5705103-SSW Alumni Office" .
+
+<http://id.columbia.edu/EXAMPLE/570600X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. External Affairs & Communication Office" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/57AD00X> ;
+	skos:inScheme "Department" ;
+	skos:editorialNote "570600X-SSW External Affrs & Comm Off" .
+
+<http://id.columbia.edu/EXAMPLE/570610X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. External Affairs & Communication Office" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570600X> ;
+	skos:inScheme "Division/Center/Institute" ;
+	skos:editorialNote "570610X-SSW External Affrs & Comm Off" .
+
+<http://id.columbia.edu/EXAMPLE/5706102> a skos:Concept ;
+	skos:prefLabel "School of Social Work. External Affairs & Communication Office" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570610X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5706102-SSW External Affrs & Comm Off" .
+
+<http://id.columbia.edu/EXAMPLE/570700X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Dean's Office" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/57AD00X> ;
+	skos:inScheme "Department" ;
+	skos:editorialNote "570700X-SSW Dean's Office" .
+
+<http://id.columbia.edu/EXAMPLE/570710X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Dean's Office" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570700X> ;
+	skos:inScheme "Division/Center/Institute" ;
+	skos:editorialNote "570710X-SSW Dean's Office" .
+
+<http://id.columbia.edu/EXAMPLE/5707102> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Dean's Office" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570710X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5707102-SSW Dean's Office" .
+
+<http://id.columbia.edu/EXAMPLE/570800X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Finance Management & Administration Services" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/57AD00X> ;
+	skos:inScheme "Department" ;
+	skos:editorialNote "570800X-SSW Finance Mgmt & Admin Srvcs" .
+
+<http://id.columbia.edu/EXAMPLE/570810X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Finance Management & Administration Services" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570800X> ;
+	skos:inScheme "Division/Center/Institute" ;
+	skos:editorialNote "570810X-SSW Finance Mgmt & Admin Srvcs" .
+
+<http://id.columbia.edu/EXAMPLE/5708102> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Financial Management & HR Office" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570810X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5708102-SSW Financial Mgmt & HR Office" .
+
+<http://id.columbia.edu/EXAMPLE/5708103> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Administration Faculty Support" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570810X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5708103-SSW Admin Faculty Support" .
+
+<http://id.columbia.edu/EXAMPLE/5708104> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Information Technology" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570810X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5708104-SSW Information Technology" .
+
+<http://id.columbia.edu/EXAMPLE/57GN00X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. General" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570000X> ;
+	skos:closeMatch "http://id.loc.gov/authorities/names/n80057282" , "http://viaf.org/viaf/126666150" ;
+	skos:inScheme "Sub-College/School" ;
+	skos:editorialNote "57GN00X-SSW General" .
+
+<http://id.columbia.edu/EXAMPLE/570100X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. General" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/57GN00X> ;
+	skos:closeMatch "http://id.loc.gov/authorities/names/n80057282" , "http://viaf.org/viaf/126666150" ;
+	skos:inScheme "Department" ;
+	skos:editorialNote "570100X-SSW General" .
+
+<http://id.columbia.edu/EXAMPLE/570110X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. General" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570100X> ;
+	skos:closeMatch "http://id.loc.gov/authorities/names/n80057282" , "http://viaf.org/viaf/126666150" ;
+	skos:inScheme "Division/Center/Institute" ;
+	skos:editorialNote "570110X-SSW General" .
+
+<http://id.columbia.edu/EXAMPLE/5701101> a skos:Concept ;
+	skos:prefLabel "School of Social Work. General" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570110X> ;
+	skos:closeMatch "http://id.loc.gov/authorities/names/n80057282" , "http://viaf.org/viaf/126666150" ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5701101-SSW General" .
+
+<http://id.columbia.edu/EXAMPLE/57NS00X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Social Work Instruction" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570000X> ;
+	skos:inScheme "Sub-College/School" ;
+	skos:editorialNote "57NS00X-SSW Social Work Instruction" .
+
+<http://id.columbia.edu/EXAMPLE/571000X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Social Work Instruction" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/57NS00X> ;
+	skos:closeMatch "http://id.loc.gov/authorities/names/n80057282" , "http://viaf.org/viaf/126666150" ;
+	skos:inScheme "Department" ;
+	skos:editorialNote "571000X-SSW Social Work Instruction" .
+
+<http://id.columbia.edu/EXAMPLE/571010X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Social Work Instruction" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/571000X> ;
+	skos:inScheme "Division/Center/Institute" ;
+	skos:editorialNote "571010X-SSW Social Work Instruction" .
+
+<http://id.columbia.edu/EXAMPLE/5710102> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Social Work Instruction" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/571010X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5710102-SSW Social Work Instruction" .
+
+<http://id.columbia.edu/EXAMPLE/571100X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Research & Academic Affairs" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/57NS00X> ;
+	skos:inScheme "Department" ;
+	skos:editorialNote "571100X-SSW Rsch & Academic Affairs" .
+
+<http://id.columbia.edu/EXAMPLE/571110X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Office of Sponsored Projects" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/571100X> ;
+	skos:inScheme "Division/Center/Institute" ;
+	skos:editorialNote "571110X-SSW Office of Sponsored Proj" .
+
+<http://id.columbia.edu/EXAMPLE/5711102> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Office of Sponsored Projects" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/571110X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5711102-SSW Office of Sponsored Proj" .
+
+<http://id.columbia.edu/EXAMPLE/571120X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Academic Affairs" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/571100X> ;
+	skos:inScheme "Division/Center/Institute" ;
+	skos:editorialNote "571120X-SSW Academic Affairs" .
+
+<http://id.columbia.edu/EXAMPLE/5711202> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Instructor Support Services Office" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/571120X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5711202-SSW Instruct Support Svcs Off" .
+
+<http://id.columbia.edu/EXAMPLE/5711203> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Field Education Office" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/571120X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5711203-SSW Field Education Office" .
+
+<http://id.columbia.edu/EXAMPLE/5711204> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Office of Professional Excellence" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/571120X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5711204-SSW Office of Prof Excellence" .
+
+<http://id.columbia.edu/EXAMPLE/5711205> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Advising Office" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/571120X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5711205-SSW Advising Office" .
+
+<http://id.columbia.edu/EXAMPLE/5711206> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Writing Center" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/571120X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5711206-SSW Writing Center" .
+
+<http://id.columbia.edu/EXAMPLE/5711207> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Online Program" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/571120X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5711207-SSW Online Program" .
+
+<http://id.columbia.edu/EXAMPLE/57RC00X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Research, Initiatives, & Centers" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/570000X> ;
+	skos:inScheme "Sub-College/School" ;
+	skos:editorialNote "57RC00X-SSW Rsch, Initiatives, & Ctrs" .
+
+<http://id.columbia.edu/EXAMPLE/576000X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Social Intervention Group" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/57RC00X> ;
+	skos:inScheme "Department" ;
+	skos:editorialNote "576000X-SSW Social Intervention Group" .
+
+<http://id.columbia.edu/EXAMPLE/576010X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Social Intervention Group" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/576000X> ;
+	skos:inScheme "Division/Center/Institute" ;
+	skos:editorialNote "576010X-SSW Social Intervention Group" .
+
+<http://id.columbia.edu/EXAMPLE/5760102> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Social Intervention Group" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/576010X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5760102-SSW Social Intervention Group" .
+
+<http://id.columbia.edu/EXAMPLE/576100X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Workplace Center" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/57RC00X> ;
+	skos:inScheme "Department" ;
+	skos:editorialNote "576100X-SSW Workplace Center" .
+
+<http://id.columbia.edu/EXAMPLE/576110X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Workplace Center" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/576100X> ;
+	skos:inScheme "Division/Center/Institute" ;
+	skos:editorialNote "576110X-SSW Workplace Center" .
+
+<http://id.columbia.edu/EXAMPLE/5761102> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Workplace Center" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/576110X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5761102-SSW Workplace Center" .
+
+<http://id.columbia.edu/EXAMPLE/576200X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Global Health Research Center of Central Asia" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/57RC00X> ;
+	skos:inScheme "Department" ;
+	skos:editorialNote "576200X-SSW Glb Hth Rsch Ctr Cent Asia" .
+
+<http://id.columbia.edu/EXAMPLE/576210X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Global Health Research Center of Central Asia" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/576200X> ;
+	skos:inScheme "Division/Center/Institute" ;
+	skos:editorialNote "576210X-SSW Glb Hth Rsch Ctr Cent Asia" .
+
+<http://id.columbia.edu/EXAMPLE/5762102> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Global Health Research Center of Central Asia" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/576210X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5762102-SSW Glb Hth Rsch Ctr Cent Asia" .
+
+<http://id.columbia.edu/EXAMPLE/576300X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Individual Research & Initiatives" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/57RC00X> ;
+	skos:inScheme "Department" ;
+	skos:editorialNote "576300X-SSW Individual Rsch & Initiat" .
+
+<http://id.columbia.edu/EXAMPLE/576310X> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Individual Research & Initiatives" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/576300X> ;
+	skos:inScheme "Division/Center/Institute" ;
+	skos:editorialNote "576310X-SSW Individual Rsch & Initiat" .
+
+<http://id.columbia.edu/EXAMPLE/5763102> a skos:Concept ;
+	skos:prefLabel "School of Social Work. Individual Research & Initiatives" ;
+	skos:broader <http://id.columbia.edu/EXAMPLE/576310X> ;
+	skos:inScheme "Sub-Division" ;
+	skos:editorialNote "5763102-SSW Individual Rsch & Initiati" .
