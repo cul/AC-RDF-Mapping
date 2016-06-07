@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/570000X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/PRO_SCH"/>
+	<skos:closeMatch>http://id.loc.gov/authorities/names/n80057282</skos:closeMatch>
+	<skos:closeMatch>http://viaf.org/viaf/126666150</skos:closeMatch>
+	<skos:inScheme>College/School</skos:inScheme>
+	<skos:editorialNote>570000X-SSW Social Work</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/57AD00X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Administration</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570000X"/>
+	<skos:inScheme>Sub-College/School</skos:inScheme>
+	<skos:editorialNote>57AD00X-SSW Administration</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/570200X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Institutional Research &amp; Evaluation</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/57AD00X"/>
+	<skos:inScheme>Department</skos:inScheme>
+	<skos:editorialNote>570200X-SSW Institutional Rsch &amp; Eval</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/570210X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Institutional Research &amp; Evaluation</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570200X"/>
+	<skos:inScheme>Division/Center/Institute</skos:inScheme>
+	<skos:editorialNote>570210X-SSW Institutional Rsch &amp; Eval</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5702102">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Institutional Research &amp; Evaluation</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570210X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5702102-SSW Institutional Rsch &amp; Eval</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/570300X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Student &amp; Enrollment Services</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/57AD00X"/>
+	<skos:inScheme>Department</skos:inScheme>
+	<skos:editorialNote>570300X-SSW Student &amp; Enrollment Srvcs</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/570310X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Student &amp; Enrollment Services</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570300X"/>
+	<skos:inScheme>Division/Center/Institute</skos:inScheme>
+	<skos:editorialNote>570310X-SSW Student &amp; Enrollment Srvcs</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5703102">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Student Services Office</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570310X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5703102-SSW Student Services Office</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5703103">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Admissions Office</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570310X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5703103-SSW Admissions Office</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5703104">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Financial Aid Office</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570310X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5703104-SSW Financial Aid Office</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5703105">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Career &amp; Leadership Development Office</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570310X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5703105-SSW Career &amp;Leadership Dev Off</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/570400X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Doctoral Office</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/57AD00X"/>
+	<skos:inScheme>Department</skos:inScheme>
+	<skos:editorialNote>570400X-SSW Doctoral Office</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/570410X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Doctoral Office</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570400X"/>
+	<skos:inScheme>Division/Center/Institute</skos:inScheme>
+	<skos:editorialNote>570410X-SSW Doctoral Office</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5704102">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Doctoral Office</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570410X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5704102-SSW Doctoral Office</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/570500X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Development &amp; Alumni Relations</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/57AD00X"/>
+	<skos:inScheme>Department</skos:inScheme>
+	<skos:editorialNote>570500X-SSW Development &amp; Alumni Relat</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/570510X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Development &amp; Alumni Relations</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570500X"/>
+	<skos:inScheme>Division/Center/Institute</skos:inScheme>
+	<skos:editorialNote>570510X-SSW Development &amp; Alumni Relat</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5705102">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Development Office</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570510X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5705102-SSW Development Office</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5705103">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Alumni Office</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570510X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5705103-SSW Alumni Office</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/570600X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. External Affairs &amp; Communication Office</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/57AD00X"/>
+	<skos:inScheme>Department</skos:inScheme>
+	<skos:editorialNote>570600X-SSW External Affrs &amp; Comm Off</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/570610X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. External Affairs &amp; Communication Office</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570600X"/>
+	<skos:inScheme>Division/Center/Institute</skos:inScheme>
+	<skos:editorialNote>570610X-SSW External Affrs &amp; Comm Off</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5706102">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. External Affairs &amp; Communication Office</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570610X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5706102-SSW External Affrs &amp; Comm Off</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/570700X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Dean's Office</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/57AD00X"/>
+	<skos:inScheme>Department</skos:inScheme>
+	<skos:editorialNote>570700X-SSW Dean's Office</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/570710X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Dean's Office</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570700X"/>
+	<skos:inScheme>Division/Center/Institute</skos:inScheme>
+	<skos:editorialNote>570710X-SSW Dean's Office</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5707102">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Dean's Office</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570710X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5707102-SSW Dean's Office</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/570800X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Finance Management &amp; Administration Services</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/57AD00X"/>
+	<skos:inScheme>Department</skos:inScheme>
+	<skos:editorialNote>570800X-SSW Finance Mgmt &amp; Admin Srvcs</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/570810X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Finance Management &amp; Administration Services</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570800X"/>
+	<skos:inScheme>Division/Center/Institute</skos:inScheme>
+	<skos:editorialNote>570810X-SSW Finance Mgmt &amp; Admin Srvcs</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5708102">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Financial Management &amp; HR Office</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570810X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5708102-SSW Financial Mgmt &amp; HR Office</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5708103">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Administration Faculty Support</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570810X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5708103-SSW Admin Faculty Support</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5708104">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Information Technology</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570810X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5708104-SSW Information Technology</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/57GN00X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. General</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570000X"/>
+	<skos:closeMatch>http://id.loc.gov/authorities/names/n80057282</skos:closeMatch>
+	<skos:closeMatch>http://viaf.org/viaf/126666150</skos:closeMatch>
+	<skos:inScheme>Sub-College/School</skos:inScheme>
+	<skos:editorialNote>57GN00X-SSW General</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/570100X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. General</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/57GN00X"/>
+	<skos:closeMatch>http://id.loc.gov/authorities/names/n80057282</skos:closeMatch>
+	<skos:closeMatch>http://viaf.org/viaf/126666150</skos:closeMatch>
+	<skos:inScheme>Department</skos:inScheme>
+	<skos:editorialNote>570100X-SSW General</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/570110X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. General</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570100X"/>
+	<skos:closeMatch>http://id.loc.gov/authorities/names/n80057282</skos:closeMatch>
+	<skos:closeMatch>http://viaf.org/viaf/126666150</skos:closeMatch>
+	<skos:inScheme>Division/Center/Institute</skos:inScheme>
+	<skos:editorialNote>570110X-SSW General</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5701101">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. General</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570110X"/>
+	<skos:closeMatch>http://id.loc.gov/authorities/names/n80057282</skos:closeMatch>
+	<skos:closeMatch>http://viaf.org/viaf/126666150</skos:closeMatch>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5701101-SSW General</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/57NS00X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Social Work Instruction</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570000X"/>
+	<skos:inScheme>Sub-College/School</skos:inScheme>
+	<skos:editorialNote>57NS00X-SSW Social Work Instruction</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/571000X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Social Work Instruction</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/57NS00X"/>
+	<skos:closeMatch>http://id.loc.gov/authorities/names/n80057282</skos:closeMatch>
+	<skos:closeMatch>http://viaf.org/viaf/126666150</skos:closeMatch>
+	<skos:inScheme>Department</skos:inScheme>
+	<skos:editorialNote>571000X-SSW Social Work Instruction</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/571010X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Social Work Instruction</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/571000X"/>
+	<skos:inScheme>Division/Center/Institute</skos:inScheme>
+	<skos:editorialNote>571010X-SSW Social Work Instruction</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5710102">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Social Work Instruction</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/571010X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5710102-SSW Social Work Instruction</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/571100X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Research &amp; Academic Affairs</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/57NS00X"/>
+	<skos:inScheme>Department</skos:inScheme>
+	<skos:editorialNote>571100X-SSW Rsch &amp; Academic Affairs</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/571110X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Office of Sponsored Projects</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/571100X"/>
+	<skos:inScheme>Division/Center/Institute</skos:inScheme>
+	<skos:editorialNote>571110X-SSW Office of Sponsored Proj</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5711102">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Office of Sponsored Projects</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/571110X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5711102-SSW Office of Sponsored Proj</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/571120X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Academic Affairs</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/571100X"/>
+	<skos:inScheme>Division/Center/Institute</skos:inScheme>
+	<skos:editorialNote>571120X-SSW Academic Affairs</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5711202">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Instructor Support Services Office</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/571120X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5711202-SSW Instruct Support Svcs Off</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5711203">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Field Education Office</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/571120X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5711203-SSW Field Education Office</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5711204">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Office of Professional Excellence</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/571120X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5711204-SSW Office of Prof Excellence</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5711205">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Advising Office</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/571120X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5711205-SSW Advising Office</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5711206">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Writing Center</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/571120X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5711206-SSW Writing Center</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5711207">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Online Program</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/571120X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5711207-SSW Online Program</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/57RC00X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Research, Initiatives, &amp; Centers</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/570000X"/>
+	<skos:inScheme>Sub-College/School</skos:inScheme>
+	<skos:editorialNote>57RC00X-SSW Rsch, Initiatives, &amp; Ctrs</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/576000X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Social Intervention Group</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/57RC00X"/>
+	<skos:inScheme>Department</skos:inScheme>
+	<skos:editorialNote>576000X-SSW Social Intervention Group</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/576010X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Social Intervention Group</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/576000X"/>
+	<skos:inScheme>Division/Center/Institute</skos:inScheme>
+	<skos:editorialNote>576010X-SSW Social Intervention Group</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5760102">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Social Intervention Group</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/576010X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5760102-SSW Social Intervention Group</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/576100X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Workplace Center</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/57RC00X"/>
+	<skos:inScheme>Department</skos:inScheme>
+	<skos:editorialNote>576100X-SSW Workplace Center</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/576110X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Workplace Center</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/576100X"/>
+	<skos:inScheme>Division/Center/Institute</skos:inScheme>
+	<skos:editorialNote>576110X-SSW Workplace Center</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5761102">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Workplace Center</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/576110X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5761102-SSW Workplace Center</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/576200X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Global Health Research Center of Central Asia</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/57RC00X"/>
+	<skos:inScheme>Department</skos:inScheme>
+	<skos:editorialNote>576200X-SSW Glb Hth Rsch Ctr Cent Asia</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/576210X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Global Health Research Center of Central Asia</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/576200X"/>
+	<skos:inScheme>Division/Center/Institute</skos:inScheme>
+	<skos:editorialNote>576210X-SSW Glb Hth Rsch Ctr Cent Asia</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5762102">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Global Health Research Center of Central Asia</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/576210X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5762102-SSW Glb Hth Rsch Ctr Cent Asia</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/576300X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Individual Research &amp; Initiatives</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/57RC00X"/>
+	<skos:inScheme>Department</skos:inScheme>
+	<skos:editorialNote>576300X-SSW Individual Rsch &amp; Initiat</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/576310X">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Individual Research &amp; Initiatives</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/576300X"/>
+	<skos:inScheme>Division/Center/Institute</skos:inScheme>
+	<skos:editorialNote>576310X-SSW Individual Rsch &amp; Initiat</skos:editorialNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.columbia.edu/EXAMPLE/5763102">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel>School of Social Work. Individual Research &amp; Initiatives</skos:prefLabel>
+	<skos:broader rdf:resource="http://id.columbia.edu/EXAMPLE/576310X"/>
+	<skos:inScheme>Sub-Division</skos:inScheme>
+	<skos:editorialNote>5763102-SSW Individual Rsch &amp; Initiati</skos:editorialNote>
+</rdf:Description>
+
+</rdf:RDF>
