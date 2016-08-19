@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dcterms="http://purl.org/dc/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:edm="http://www.europeana.eu/schemas/edm"
+    xmlns:bf="http://id.loc.gov/ontologies/bibframe#" xmlns:vra="http://purl.org/vra/"
+    xmlns:schema="http://schema.org/" 
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdau="http://www.rdaregistry.info/Elements/u/#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:pcdm="http://pcdm.org/models#"
+    xmlns:relator="http://id.loc.gov/vocabulary/relators/#">
+    <rdf:Description rdf:about="http://rdf.columbia-artprop/resource/#21">
+        <dcterms:type rdf:resource="http://id.loc.gov/vocabulary/resourceTypes/txt"/>
+        <edm:hasType rdf:resource="http://vocab.getty.edu/aat/300048715"/>
+        <!-- Simple Title:
+        <titleInfo>
+            <title>Efficacy of a Group-Based Multimedia HIV Prevention Intervention for Drug-Involved Women under Community Supervision: Project WORTH</title>
+        </titleInfo>
+        -->
+        <dc:title xml:lang="en">Efficacy of a Group-Based Multimedia HIV Prevention Intervention for
+            Drug-Involved Women under Community Supervision: Project WORTH</dc:title>
+        <!-- Complex Title would allow for a more felxible title display
+        <titleInfo>
+            <title>Comma but Differentiated Responsibilities</title>
+            <subTitle>Punctuation and 30 Other Ways Negotiators Have Resolved Issues in the International Climate Change Regime</subTitle>
+        </titleInfo>
+        -->
+        <rdau:hasTitle xml:lang="en">Comma but Differentiated Responsibilities</rdau:hasTitle>
+        <rdau:hasOtherTitleInformation>Punctuation and 30 Other Ways Negotiators Have Resolved
+            Issues in the International Climate Change Regime</rdau:hasOtherTitleInformation>
+        <rdau:hasVariantTitle>Some title variant</rdau:hasVariantTitle>
+        <relator:cre rdf:resource="http://id.library.columbia.edu/people/ne5"/>
+        <relator:org rdf:resource="http://isni.org/isni/0000000119551337"/>
+        <dcterms:created>2014</dcterms:created>
+        <bf:identifiedby rdf:parseType="Resource">
+            <bf:DOI rdf:value="10.7916/D8N0153Q"/>
+            <bf:assigner rdf:resource="http://id.loc.gov/authorities/names/no2009196171"/>
+        </bf:identifiedby>
+        <bf:identifiedby rdf:parseType="Resource">
+            <bf:Doi rdf:value="10.1371/journal.pone.0111528"/>
+            <bf:assigner rdf:resource="http://id.loc.gov/authorities/names/n2003130472"/>
+        </bf:identifiedby>
+        <dcterms:abstract xml:lang="en">Objective: We tested the efficacy of a group-based
+            traditional and multimedia HIV/STI prevention intervention (Project WORTH: Women on the
+            Road to Health) among drug-involved women under community supervision. Design, Setting,
+            Participants, and Intervention: We randomized 306 women recruited from community
+            supervision settings to receive either: (1) a four-session traditional group-based
+            HIV/STI prevention intervention (traditional WORTH); (2) a four-session multimedia
+            group-based HIV/STI prevention intervention that covered the same content as traditional
+            WORTH but was delivered in a computerized format; or (3) a four-session group-based
+            Wellness Promotion intervention that served as an attention control condition. The study
+            examined whether the traditional or multimedia WORTH intervention was more efficacious
+            in reducing risks when compared to Wellness Promotion; and whether multimedia WORTH was
+            more efficacious in reducing risks when compared to traditional WORTH. Main Outcomes and
+            Measures: Primary outcomes were assessed over the 12-month post-intervention period and
+            included the number of unprotected sex acts, the proportion of protected sex acts, and
+            consistent condom use. At baseline, 77% of participants reported unprotected vaginal or
+            anal sex (n = 237) and 63% (n = 194) had multiple sex partners. Results: Women assigned
+            to traditional or multimedia WORTH were significantly more likely than women assigned to
+            the control condition to report an increase in the proportion of protected sex acts
+            (&#946; = 0.10; 95% CI = 0.02&#8211;0.18) and a decrease in the number of unprotected
+            sex acts (IRR = 0.72; 95% CI = 0.57&#8211;0.90). Conclusion and Relevance: The promising
+            effects of traditional and multimedia WORTH on increasing condom use and high
+            participation rates suggest that WORTH may be scaled up to redress the concentrated
+            epidemics of HIV/STIs among drug-involved women in the criminal justice
+            system.</dcterms:abstract>
+        <dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+        <dcterms:subject rdf:resource="http://id.worldcat.org/fast/1123192"/>
+        <!-- Do we need to manage the Proquest terms as well or convert according to Erin's specs to FAST? If we carry them over, we would have to create a local vocab -->
+        <dcterms:subject rdf:resource="http://id.library.columbia.edu/term/_for_Proquest_term"/>
+        <relator:fnd rdf:resource="http://doi.org/10.13039/501100000266"/>
+        <!-- Need to discuss RIOXX data -->
+        <bf:partOf  rdf:parseType="Resource">
+            <bf:Work rdf:resource="http://id.library.columbia.edu/Journals#1"/>
+            <schema:volumeNumber>9, issue 11</schema:volumeNumber>
+            <schema:pageStart>10</schema:pageStart>
+            <schema:pageEnd>15</schema:pageEnd>
+        </bf:partOf>
+        <!-- I currently cannot locate a predicate for issue no. If it is necessary for the AC use case to separate this we may have to coin a local predicate -->
+        <pcdm:hasRelatedObject rdf:resource="http://dx.doi.org/10.7916/D8N0153Q"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://id.library.columbia.edu/Journals#1">
+        <edm:hasType rdf:resource="http://vocab.getty.edu/aat/300215390"/>
+        <rdfs:label>PloS one</rdfs:label>
+        <skos:exactMatch rdfs:resource="http://worldcat.org/entity/work/id/57729172"/>
+    </rdf:Description>
+</rdf:RDF>
+
