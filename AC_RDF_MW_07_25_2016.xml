@@ -64,7 +64,7 @@
             system.</dcterms:abstract>
         <dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
         <dcterms:subject rdf:resource="http://id.worldcat.org/fast/1123192"/>
-        <!-- Do we need to manage the Proquest terms as well or convert according to Erin's specs to FAST? If we carry them over, we would have to create a local vocab -->
+        <!-- Per 1/9/17 AC metadata meeting: All ProQUest subject terms will be converted to FAST before Hyacinth ingest -->
         <dcterms:subject rdf:resource="http://id.library.columbia.edu/term/_for_Proquest_term"/>
         <relator:fnd rdf:resource="http://doi.org/10.13039/501100000266"/>
         <!-- Need to discuss RIOXX data -->
