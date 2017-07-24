@@ -6,6 +6,7 @@
     xmlns:bf="http://id.loc.gov/ontologies/bibframe#" xmlns:vra="http://purl.org/vra/"
     xmlns:schema="http://schema.org/" xmlns:rdau="http://www.rdaregistry.info/Elements/u/#"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
     xmlns:pcdm="http://pcdm.org/models#"
     xmlns:relator="http://id.loc.gov/vocabulary/relators/#">
     <rdf:Description rdf:about="http://rdf.columbia-artprop/resource/#21">
@@ -70,12 +71,11 @@
         <!-- Need to discuss RIOXX data -->
         <bf:partOf  rdf:parseType="Resource">
             <bf:Work rdf:resource="http://worldcat.org/entity/work/id/57729172"/>
-            <rdfs:label>PloS one</rdfs:label>
             <schema:volumeNumber>9, issue 11</schema:volumeNumber>
+            <bibo:issue>11<bibo:issue>
             <schema:pageStart>10</schema:pageStart>
             <schema:pageEnd>15</schema:pageEnd>
         </bf:partOf>
-            <!-- I currently cannot locate a predicate for issue no. If it is necessary for the AC use case to separate this we may have to coin a local predicate -->
         <pcdm:hasRelatedObject rdf:resource="http://dx.doi.org/10.7916/D8N0153Q"/>
     </rdf:Description>
 </rdf:RDF>
