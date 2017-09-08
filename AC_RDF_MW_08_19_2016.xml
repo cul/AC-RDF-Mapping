@@ -74,8 +74,8 @@
         <!-- Need to discuss RIOXX data -->
         <bf:partOf  rdf:parseType="Resource">
             <bf:Work rdf:resource="http://id.library.columbia.edu/Journals#1"/>
-            <schema:volumeNumber>9, issue 11</schema:volumeNumber>
-            <bibo:issue>11<bibo:issue>
+            <schema:volumeNumber>9</schema:volumeNumber>
+            <bibo:issue>11</bibo:issue>
             <schema:pageStart>10</schema:pageStart>
             <schema:pageEnd>15</schema:pageEnd>
         </bf:partOf>
